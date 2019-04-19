@@ -1,4 +1,4 @@
-# privvcdn
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33727235-7228-414a-bb66-96c8b65b35f2/deploy-status)](https://app.netlify.com/sites/privvcdn/deploys)
 
 ## Project setup
 ```
