@@ -1,12 +1,15 @@
 <template>
-  <div id="app">
-    <div class="wrapper">
-        <div class="column">
-          <a href="https://emilpriver.com">
-            <img src="https://edge.privvcdn.se/portfolio/vitlogotyp.png" />
-          </a>
-        </div>
-        <span>Global CDN network hosted by DigitalOcean</span>
+  <div id="app"> 
+    <div class="con">
+
+      <div class="col">
+        <h1>Privv CDN</h1>
+      </div>
+
+      <div class="col">
+        <img src="https://edge.privvcdn.se/banana.gif">
+      </div>
+
     </div>
   </div>
 </template>
@@ -23,7 +26,6 @@ export default {
 body {
   margin: 0px;
   padding: 0px;
-  background-image: url('https://edge.privvcdn.se/cdn_bg.jpg');
   background-size: cover;
 }
 #app {
@@ -32,9 +34,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   height: 100vh;
-  color: #fff;
+  color: #000;
   display:flex;
   justify-content: center;
+  align-items: center;
+}
+
+.con{
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col{
+  flex: 0 0 50%;
+  text-align: left;
+  display: flex;
   align-items: center;
 }
 
